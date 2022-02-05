@@ -1,0 +1,139 @@
+//-----------ЗАГОЛОВОК МОДАЛКИ----------- //
+.modal__title {
+  font-family: var(--font-family);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+//-----------ЧЕМ МЫ ЗАНИМАЕМСЯ----------- //
+.working__title {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--section-title-color);
+  margin-bottom: 50px;
+}
+.masters__title {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  color: var(--section-title-color);
+  letter-spacing: 0.06em;
+  margin-bottom: 4px;
+}
+//-----------Наша команда----------- //
+.team__title {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--section-title-color);
+  margin-bottom: 50px;
+}
+.name__title {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  letter-spacing: 0.03em;
+  color: var(--section-title-color);
+  text-align: center;
+  margin-bottom: 10px;
+}
+//-----------ПОСТОЯННЫЕ КЛИЕНТЫ----------- //
+.clients__title {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: #ffffff;
+  margin-bottom: 50px;
+}
+//-----------ЗАГОЛОВОК В ФУТЕРЕ----------- //
+.social__title {
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/* Секция заголовка "Чем мы занимаемся" */
+.title {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+
+  text-transform: uppercase;
+  color: var(--section-title-color);
+}
+.section__icons--action {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+
+  color: var(--section-title-color);
+}
+
+.section__icons--punctuality {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+
+  color: var(--section-title-color);
+}
+
+.section__icons--planing {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+
+  color: var(--section-title-color);
+}
+
+.section__icons--technologies {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+
+  color: var(--section-title-color);
+}

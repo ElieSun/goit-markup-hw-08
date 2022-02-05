@@ -1,0 +1,190 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: opacity 500ms, visibility 500ms;
+}
+.modal {
+  width: 528px;
+  min-height: 581px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  padding: 40px;
+}
+
+.modal__close {
+  width: 30px;
+  height: 30px;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  @extend %align-list;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  &:hover .img-close-modal {
+    fill: #188ce8;
+  }
+}
+
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+.dogovir-label {
+  color: #757575;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  margin-left: 20px;
+}
+/* --------------------Чекбокс----------------------- */
+.checkbox__input {
+  appearance: none;
+  position: absolute;
+}
+.checkbox__label {
+  @extend %flex-align;
+}
+.icon {
+  content: "";
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 15px;
+  position: absolute;
+
+  border: 2px solid black;
+  border-radius: 4px;
+}
+.checkbox__input:checked + .icon {
+  background-color: var(--color-letter-blue);
+  background-image: url(../img/ch.svg);
+  background-size: contain;
+  background-origin: border-box;
+  border-color: var(--color-letter-blue);
+}
+/* ---------------Позиционирование иконок плейсхолдера------------- */
+.wrap {
+  position: relative;
+}
+.wrap__input--people {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  fill: #000000;
+}
+.wrap__input--tel {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #000000;
+}
+
+.wrap__input--mail {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #000000;
+}
+.wrap__input:focus + .wrap__input--mail {
+  fill: #188ce8;
+}
+
+.form__label {
+  font-size: 12px;
+  color: grey;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form__label--text {
+  width: 100%;
+  height: 100px;
+  border: 1px solid#999999;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
+  resize: none;
+  outline: none;
+  &:focus {
+    border-color: #2196f3;
+  }
+}
+
+.field {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.checkbox {
+  padding-left: 10px;
+}
+.link-dogovir {
+  color: #2196f3;
+  text-decoration: underline;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  min-width: 200px;
+}
+
+.wrap__input--people {
+  fill: black;
+}
+.section-input-footer {
+  margin-left: 93px;
+  position: relative;
+}
+
+.input-e-mail {
+  position: absolute;
+  background-color: #2f303a;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  min-width: 358px;
+  min-height: 50px;
+}
+.form {
+  margin-bottom: 10px;
+}
+.wrap__input {
+  padding-left: 35px;
+  width: 448px;
+  height: 40px;
+  border: 1px solid #999999;
+  border-radius: 4px;
+  color: #000000;
+  outline: none;
+  &:focus {
+    border-color: #2196f3;
+  }
+  &:focus + .wrap__input--tel {
+    fill: #188ce8;
+  }
+  &:focus + .wrap__input--people {
+    fill: #188ce8;
+  }
+  &::placeholder {
+    color: grey;
+    position: absolute;
+    bottom: 0;
+  }
+}

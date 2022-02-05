@@ -1,0 +1,267 @@
+.container {
+margin-bottom: 20px;
+}
+
+.sait-logo {
+  @media screen and (min-width: 480px) {
+    width: 134px;
+    margin-left: 15px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+}
+
+.sait-logo__blue {
+  color: var(--color-letter-blue);
+  font-family: var(--font-family-header);
+  font-style: normal;
+  font-weight: bold;
+  @media screen and (min-width: 480px) {
+  font-size: 24px;
+  line-height: calc(24 / 28);
+  letter-spacing: 0.03em;
+}
+.sait-logo__black {
+  color: var(--section-title-color);
+  font-family: var(--font-family-header);
+  font-style: normal;
+  font-weight: bold;
+   @media screen and (min-width: 480px) {
+  font-size: 24px;
+  line-height: calc(24 / 28);
+  letter-spacing: 0.03em;
+   }
+}
+.header__navigation--button {
+  @media screen and (min-width: 480px) {
+ 
+  }
+}
+// .header__navigation-contact {
+//   display: flex;
+//   margin-left: auto;
+// }
+// .categories__navigation-main .header__navigation-tel:not(:last-child) {
+//   margin-right: 0;
+// }
+// .header__navigation-mail {
+//   margin-right: 50px;
+// }
+// .link-mail__icon {
+//   margin-right: 10px;
+//   fill: currentColor;
+//   &:hover {
+//     fill: #188ce8;
+//   }
+// }
+// .link-tel__icon {
+//   margin-right: 10px;
+//   fill: currentColor;
+//   &:hover {
+//     fill: #188ce8;
+//   }
+// }
+
+// /* -----------Голубая маленькая линия в хедере--------------- */
+// .header-studio__link {
+//   position: relative;
+//   color: #2196f3;
+//   &::after {
+//     content: "";
+//     width: 100%;
+//     height: 5px;
+//     border-radius: 2px;
+//     position: absolute;
+//     background-color: #2196f3;
+//     left: 0px;
+//     bottom: 0px;
+//   }
+// }
+// .header-portfolio__link {
+//   position: relative;
+//   color: #2196f3;
+// }
+// .header-portfolio__link::after {
+//   content: "";
+//   width: 100%;
+//   height: 5px;
+//   border-radius: 2px;
+//   position: absolute;
+//   background-color: #2196f3;
+//   left: 0px;
+//   bottom: 0px;
+// }
+// .categories__navigation-main {
+//   display: flex;
+//   flex-wrap: wrap;
+
+//   margin-left: 93px;
+// }
+// .categories__navigation-main .header__navigation-item:not(:last-child) {
+//   margin-right: 0;
+// }
+// .header__navigation-item {
+//   margin-left: 50px;
+// }
+// .header__navigation {
+//   @extend %flex-align;
+// }
+// .header__navigation-main {
+//   @extend %flex-align;
+// }
+// /* Эффекты для интерактивных элементов */
+// /* Ссылки в шапке */
+// .header__navigation-link {
+//   font-family: var(--font-family);
+//   font-style: normal;
+//   font-weight: 500;
+//   font-size: 14px;
+//   line-height: calc(16 / 14);
+//   letter-spacing: 0.02em;
+//   color: var(--section-title-color);
+//   display: block;
+//   padding-top: 32px;
+//   padding-bottom: 32px;
+
+//   transition-property: color;
+//   transition-duration: 250ms;
+//   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+//   &:hover,
+//   &:focus,
+//   &:active {
+//     color: var(--color-letter-blue);
+//   }
+// }
+
+// .header-portfolio {
+//   font-family: var(--font-family);
+//   font-style: normal;
+//   font-weight: 700;
+//   font-size: 14px;
+//   line-height: calc(16 / 14);
+//   letter-spacing: 0.02em;
+//   color: var(--color-letter-blue);
+//   display: block;
+//   padding-top: 32px;
+//   padding-bottom: 32px;
+// }
+// .studio-portfolio {
+//   font-family: var(--font-family);
+//   font-style: normal;
+//   font-weight: 500;
+//   font-size: 14px;
+//   line-height: calc(16 / 14);
+//   letter-spacing: 0.02em;
+
+//   color: var(--section-title-color);
+//   display: block;
+//   padding-top: 32px;
+//   padding-bottom: 32px;
+
+//   transition-property: color;
+//   transition-duration: 250ms;
+//   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+//   &:focus,
+//   &:hover,
+//   &:active {
+//     color: var(--color-letter-blue);
+//   }
+// }
+// .link-mail {
+//   @extend %flex-align;
+//   color: var(--section-paragraf-color);
+//   font-family: var(--font-family);
+//   font-style: normal;
+//   font-weight: 500;
+//   font-size: 14px;
+//   line-height: calc(16 / 14);
+//   letter-spacing: 0.02em;
+//   padding-top: 32px;
+//   padding-bottom: 32px;
+
+//   transition-property: color;
+//   transition-duration: 250ms;
+//   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+//   &:focus,
+//   &:hover,
+//   &:active {
+//     color: var(--color-letter-blue);
+//   }
+// }
+
+// .link-tel {
+//   @extend %align-list;
+//   color: var(--section-paragraf-color);
+
+//   font-family: var(--font-family);
+//   font-style: normal;
+//   font-weight: 700;
+//   font-size: 14px;
+//   line-height: calc(16 / 14);
+//   letter-spacing: 0.02em;
+
+//   padding-top: 32px;
+//   padding-bottom: 32px;
+
+//   transition-property: color;
+//   transition-duration: 250ms;
+//   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+//   &:focus,
+//   &:hover,
+//   &:active {
+//     color: var(--color-letter-blue);
+//   }
+// }
+
+// /* Подсветка Ссылки Студия */
+// .header-studio {
+//   font-family: var(--font-family);
+//   font-style: normal;
+//   font-weight: 700;
+//   font-size: 14px;
+//   line-height: calc(16 / 14);
+//   letter-spacing: 0.02em;
+//   color: var(--color-letter-blue);
+//   display: block;
+//   padding-top: 32px;
+//   padding-bottom: 32px;
+// }
+// .header-portfolio {
+//   font-family: var(--font-family);
+//   font-style: normal;
+//   font-weight: 700;
+//   font-size: 14px;
+//   line-height: calc(16 / 14);
+//   letter-spacing: 0.02em;
+
+//   color: var(--color-letter-blue);
+// }
+// /* Фокус логотипа */
+// .sait-logo:focus {
+//   color: var(--active-link-color);
+//   font-family: var(--font-family-header);
+//   font-style: normal;
+//   font-weight: bold;
+//   font-size: 14px;
+//   line-height: calc(16 / 14);
+//   letter-spacing: 0.02em;
+// }
+// /* Часть цвета логотипа */
+// .sait-logo__blue {
+//   color: var(--color-letter-blue);
+//   font-family: var(--font-family-header);
+//   font-style: normal;
+//   font-weight: bold;
+//   font-size: 26px;
+//   line-height: calc(26 / 31);
+//   letter-spacing: 0.02em;
+// }
+// .sait-logo__black {
+//   color: var(--section-title-color);
+//   font-family: var(--font-family-header);
+//   font-style: normal;
+//   font-weight: bold;
+//   font-size: 26px;
+//   line-height: calc(26 / 31);
+//   letter-spacing: 0.02em;
+// }

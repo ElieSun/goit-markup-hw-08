@@ -1,0 +1,31 @@
+/* Глобальный сброс стилей по селектору тега, то чтоне входит в нормалайз */
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+ul {
+  list-style: none;
+}
+p {
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+  /* display: block; */
+}
+button {
+  cursor: pointer;
+  direction: none;
+}
+img {
+  display: block;
+}

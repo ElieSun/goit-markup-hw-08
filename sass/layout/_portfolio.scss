@@ -1,0 +1,255 @@
+.masters-paragraf {
+  font-weight: normal;
+  color: var(--section-paragraf-color);
+  line-height: calc(24 / 14);
+  font-size: 14px;
+}
+.section-paragraf-1 {
+  font-weight: 400;
+  color: var(--section-paragraf-color);
+  line-height: calc(30 / 16);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+/* Расположение контактов портфолио*/
+
+.categories-contact {
+  display: flex;
+  margin-left: auto;
+}
+/* Крайняя геометрия, во избежание выпадения списка из меню */
+.categories-list .categories-contact-tel:not(:last-child) {
+  margin-right: 0;
+}
+.categories-contact-mail {
+  margin-right: 50px;
+}
+.masters {
+  position: relative;
+  overflow: hidden;
+}
+
+.masters__text {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(33, 150, 243, 0.9);
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: calc(28 / 18);
+  letter-spacing: 0.03em;
+  padding: 40px;
+  height: 100%;
+  transform: translateY(100%);
+
+  transition: transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  .images:hover & {
+    transform: translateY(0);
+  }
+}
+.text-img {
+  padding: 20px 24px 20px 24px;
+  border-bottom: 1px solid #ececec;
+  border-left: 1px solid #ececec;
+  border-right: 1px solid #ececec;
+}
+/* Студия Список абзацев*/
+.posters {
+  display: flex;
+  flex-wrap: wrap;
+  & .images:last-child {
+    margin-right: 0px;
+  }
+  & .images:nth-child(-n + 3) {
+    margin-top: 0;
+  }
+  & .images:nth-child(3n + 1) {
+    margin-left: 0;
+  }
+  & > .images {
+    background: #ffffff;
+    flex-basis: calc((100% - 90px) / 3);
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+}
+.categories-contact {
+  display: flex;
+  margin-left: auto;
+}
+/* Крайняя геометрия, во избежание выпадения списка из меню */
+.categories-list .categories-contact-tel:not(:last-child) {
+  margin-right: 0;
+}
+.categories-contact-mail {
+  margin-right: 50px;
+}
+.masters-paragraf {
+  font-weight: normal;
+  color: var(--section-paragraf-color);
+  line-height: calc(24 / 14);
+  font-size: 14px;
+}
+.section-paragraf-1 {
+  font-weight: 400;
+  color: var(--section-paragraf-color);
+  line-height: calc(30 / 16);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.categories-list {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-left: 93px;
+}
+
+.categories-list .item:not(:last-child) {
+  margin-right: 0;
+}
+.item {
+  margin-left: 50px;
+}
+.masters {
+  position: relative;
+  overflow: hidden;
+}
+.masters__text {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-family: var(--font-family);
+  background-color: rgba(33, 150, 243, 0.9);
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: calc(28 / 18);
+  letter-spacing: 0.03em;
+  padding: 40px;
+  height: 100%;
+  transform: translateY(100%);
+
+  transition: transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  .images:hover & {
+    transform: translateY(0);
+  }
+}
+.images__link {
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:focus,
+  &:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+}
+.text-img {
+  padding: 20px 24px 20px 24px;
+  border-bottom: 1px solid #ececec;
+  border-left: 1px solid #ececec;
+  border-right: 1px solid #ececec;
+}
+.footer-sections {
+  display: flex;
+  align-items: baseline;
+}
+.mail-svg {
+  margin-right: 10px;
+  fill: currentColor;
+  &:hover {
+    fill: #188ce8;
+  }
+}
+
+.tel-svg {
+  margin-right: 10px;
+  fill: currentColor;
+  &:hover {
+    fill: #188ce8;
+  }
+
+  .masters {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .masters__text {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: var(--font-family);
+    background-color: rgba(33, 150, 243, 0.9);
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: calc(28 / 18);
+    letter-spacing: 0.03em;
+    padding: 40px;
+    height: 100%;
+    transform: translateY(100%);
+
+    transition: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    .images:hover & {
+      transform: translateY(0);
+    }
+  }
+}
+/* Студия Список абзацев*/
+.posters {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Портфолио */
+.current-portfolio {
+  position: relative;
+  color: #2196f3;
+  &::after {
+    content: "";
+    width: 100%;
+    height: 5px;
+    border-radius: 2px;
+    position: absolute;
+    background-color: #2196f3;
+    left: 0px;
+    bottom: 0px;
+  }
+}
+/* ----------Выплывающий текст над секцией---------- */
+.images:hover .masters__text {
+  transform: translateY(0);
+}
+.masters {
+  position: relative;
+  overflow: hidden;
+}
+
+.masters__text {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-family: var(--font-family);
+  background-color: rgba(33, 150, 243, 0.9);
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: calc(28 / 18);
+  letter-spacing: 0.03em;
+  padding: 40px;
+  height: 100%;
+  transform: translateY(100%);
+
+  transition: transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

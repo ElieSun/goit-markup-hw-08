@@ -1,0 +1,26 @@
+//-----------UTILS------------//
+@import "./utils/variables";
+@import "./utils/placeholder";
+//-----------BASE------------//
+@import "./base/reset";
+@import "./base/common";
+//-----------COMPONENTS------------//
+@import "./components/container";
+@import "./components/btn";
+@import "./components/title";
+@import "./components/container";
+@import "./components/container";
+@import "./components/container";
+@import "./components/modalka";
+//-----------LAYOUT------------//
+@import "./layout/header";
+@import "./layout/service";
+@import "./layout/activity";
+@import "./layout/working";
+@import "./layout/team";
+@import "./layout/clients";
+@import "./layout/contacts";
+@import "./layout/social";
+@import "./layout/subscribe";
+@import "./layout/footer";
+@import "./layout/portfolio";

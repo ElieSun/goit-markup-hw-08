@@ -1,0 +1,38 @@
+.service {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 900;
+  line-height: calc(60 / 44);
+  letter-spacing: 0.06em;
+  color: var(--color-letter-white);
+  text-align: center;
+  text-transform: uppercase;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: var(--color-background);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero-bg.jpg);
+}
+/* Заголовок h1 */
+.service__title {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--color-letter-white);
+  max-width: 696px;
+  margin: 0 auto 30px auto;
+}
+.img-1 {
+  padding-bottom: 94px;
+}

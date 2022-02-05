@@ -1,0 +1,113 @@
+.сontacts {
+  margin-right: 70px;
+}
+.logo {
+  margin-bottom: 40px;
+}
+.logo__white {
+  color: var(--color-letter-white);
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: calc(26 / 31);
+}
+.сontacts__address {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: var(--color-letter-white);
+  margin-bottom: 9px;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    color: var(--color-letter-blue);
+  }
+  &:active {
+    color: var(--section-paragraf-color);
+  }
+  &:focus {
+    color: var(--color-letter-white);
+  }
+}
+.сontacts__mail {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 9px;
+  display: block;
+  margin-top: 9px;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    color: var(--color-letter-blue);
+  }
+  &:active {
+    color: var(--active-link-color);
+  }
+  &:focus {
+    color: var(--color-letter-white);
+  }
+}
+.сontacts__address {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: var(--color-letter-white);
+  padding-bottom: 9px;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    color: var(--color-letter-blue);
+  }
+  &:active {
+    color: var(--active-link-color);
+  }
+  &:focus {
+    color: var(--section-paragraf-color);
+  }
+}
+.сontacts__tel {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  display: block;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    color: var(--color-letter-blue);
+  }
+  &:active {
+    color: var(--active-link-color);
+  }
+  &:focus {
+    color: var(--color-letter-white);
+  }
+}
+.logo__blue {
+  color: var(--color-letter-blue);
+  font-family: var(--font-family-header);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: calc(26 / 31);
+  letter-spacing: 0.02em;
+}
