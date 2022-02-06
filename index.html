@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
@@ -18,8 +18,7 @@
 <body class="body">
     <!-- Основной блок навигации -->
  <header class="header">
-    <div class="container header__navigation"> 
-            <nav class="header__navigation-main">
+    <div class="container header__navigation">
 
                 <a href="./index.html" class="sait-logo"><span class="sait-logo__blue">Web</span>
                     <span class="sait-logo__black">Studio</span></a>
@@ -56,16 +55,17 @@
     <!-- Секция заказать услугу -->
     
     <main>
-            <!-- <section class="service">
+            <section class="service">
             <div class="container">
-               
+           
                 <h1 class="service__title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
                 <button type="button" class="service__button" data-modal-open>Заказать услугу</button>
            </div>
-        </section> -->
+        </section>
         <!-- Секция чем мы занимаемся -->
             <section class="activity">
                 <div class="container">
+                    
                     <ul class="activity__list">
                         <li class="list">
                             <div class="section__icons">
@@ -114,7 +114,7 @@
                 </div> 
             </section>
         </div>
-        <!-- <section class="working">
+         <!-- <section class="working">
             <div class="container">
                 <h2 class="working__title">Чем мы занимаемся</h2>
         
@@ -139,14 +139,22 @@
                         </li>
                     </ul>
                 </div>
-        </section>  
+        </section>   -->
     
-            <section class="team">
+             <section class="team">
                 <div class="container">
                      <h2 class="team__title">Наша команда</h2>
                      <ul class="team__list"> 
                         <li class="team__list--photo">
-                            <img src="./images/img_(3).jpg" alt="Игорь демьяненко Product Designer" width="270">
+            <picture>
+                <source srcset="./images/im_sec_2/img_1/mob-1x.jpg  1x,
+                                                    ./images/im_sec_2/img_1/mob-2x.jpg  2x" media="(min-width: 480px)" />
+                <source srcset="./images/im_sec_2/img_1/tab-1x.jpg  1x,
+                                                    ./images/im_sec_2/img_1/tab-2x.jpg  2x" media="(min-width: 768px)" />
+                <source srcset="./images/im_sec_2/img_1/dskt-1x.jpg  1x,
+                                                    ./images/im_sec_2/img_1/dskt-2x.jpg  2x" media="(min-width: 1200px)" />
+            </picture>
+                            <img src="./images/img_(3).jpg" alt="Игорь демьяненко Product Designer">
                             <div class="name">
                             <h3 class="name__title">Игорь Демьяненко</h3>
                             <p class="name__paragraf">Product Designer</p>
@@ -184,7 +192,15 @@
                             </div> 
                         </li>
                         <li class="team__list--photo">
-                            <img src="./images/img_(4).jpg" alt="Ольга Репина Frontent Developer" width="270">
+                            <picture>
+                                <source srcset="./images/im_sec_2/img_2/mob-1x.jpg  1x,
+                                                            ./images/im_sec_2/img_2/mob-2x.jpg  2x" media="(min-width: 480px)" />
+                                <source srcset="./images/im_sec_2/img_2/tab-1x.jpg  1x,
+                                                            ./images/im_sec_2/img_2/tab-2x.jpg  2x" media="(min-width: 768px)" />
+                                <source srcset="./images/im_sec_2/img_2/dskt-1x.jpg  1x,
+                                                            ./images/im_sec_2/img_2/dskt-2x.jpg  2x" media="(min-width: 1200px)" />
+                            </picture>
+                            <img src="./images/img_(4).jpg" alt="Ольга Репина Frontent Developer">
                             <div class="name">
                             <h3 class="name__title">Ольга Репина</h3>
                             <p class="name__paragraf">Frontent Developer</p>
@@ -221,7 +237,15 @@
                             </div>
                         </li>
                         <li class="team__list--photo">
-                            <img src="./images/img_(5).jpg" alt="Николай Тарасов Marketing" width="270">
+                            <picture>
+                                <source srcset="./images/im_sec_2/img_3/mob-1x.jpg  1x,
+                                                                        ./images/im_sec_2/img_3/mob-2x.jpg  2x" media="(min-width: 480px)" />
+                                <source srcset="./images/im_sec_2/img_3/tab-1x.jpg  1x,
+                                                                        ./images/im_sec_2/img_3/tab-2x.jpg  2x" media="(min-width: 768px)" />
+                                <source srcset="./images/im_sec_2/img_3/dskt-1x.jpg  1x,
+                                                                        ./images/im_sec_2/img_3/dskt-2x.jpg  2x" media="(min-width: 1200px)" />
+                            </picture>
+                            <img src="./images/img_(5).jpg" alt="Николай Тарасов Marketing">
                             <div class="name">
                             <h3 class="name__title">Николай Тарасов</h3>
                             <p class="name__paragraf">Marketing</p>
@@ -258,7 +282,15 @@
                             </div>
                         </li>
                         <li class="team__list--photo">
-                            <img src="./images/img_(6).jpg" alt="Михаил Ермаков UI Designer" width="270">
+                            <picture>
+                                <source srcset="./images/im_sec_2/img_4/mob-1x.jpg  1x,
+                                                ./images/im_sec_2/img_4/mob-2x.jpg  2x" media="(min-width: 480px)" />
+                                <source srcset="./images/im_sec_2/img_4/tab-1x.jpg  1x,
+                                                ./images/im_sec_2/img_4/tab-2x.jpg  2x" media="(min-width: 768px)" />
+                                <source srcset="./images/im_sec_2/img_4/dskt-1x.jpg  1x,
+                                                ./images/im_sec_2/img_4/dskt-2x.jpg  2x" media="(min-width: 1200px)" />
+                            </picture>
+                            <img src="./images/img_(6).jpg" alt="Михаил Ермаков UI Designer" >
                             <div class="name">
                             <h3 class="name__title">Михаил Ермаков</h3>
                             <p class="name__paragraf">UI Designer</p>
@@ -298,7 +330,7 @@
                 </div>
             </section>
 
-        <section class="clients">
+        <!-- <section class="clients">
             <div class="container">
             <h2 class="clients__title">Постоянные клиенты</h2>
     
@@ -484,5 +516,5 @@
 </body>
 
 </html>
-
-
+ -->
+ -->

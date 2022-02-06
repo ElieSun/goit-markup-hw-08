@@ -37,6 +37,30 @@ margin-bottom: 20px;
  
   }
 }
+.header__navigation--button {
+  min-height: 40px;
+  min-width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+
+  @media (min-width: 768px) {
+  .header__navigation--button {
+    display: none;
+  }
+  
+  &:hover,
+  &:focus {
+  background-color: rgba(0, 0, 0, 0.1);
+}
 // .header__navigation-contact {
 //   display: flex;
 //   margin-left: auto;
